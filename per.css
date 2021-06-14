@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: blanchedalmond;
+}
+.continer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: cyan;
+}
+.personal{
+    border: white solid 3px;
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+.b{
+   float: left; 
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:blue;
+}
+.contact{
+  float: right;
+padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+font-weight: bold;
+color:blue;
+}
+.contact a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+hr{
+    margin: 20px auto;
+    width: 100%;
+   
+    border: black 3px solid;
+    border-bottom: none;
+}
+
+#info{
+
+}
+.cotent{
+margin: 20px;
+}
+.left-div{
+    float: left;
+width: 30%;
+}
+.right-div{
+   
+    float: left;
+    width: 70%;
+}
+.common_hr{
+    border: black 1px solid;
+    width: 100%;
+    
+    border-bottom: none;
+    margin: 20px auto;
+}
+.edu-left{
+float: left;
+width: 45%;
+}
+.edu-right{
+    float: right;
+    width: 45%;
+
+}
